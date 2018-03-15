@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   
   namespace :api do
-    resources: cards
+    resources :cards
   end
 
   #Do not place any routes below this one
